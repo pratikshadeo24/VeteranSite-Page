@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+i{
+    font-size: 22px;
+    margin-left: 12px;
+}
+.header{
+    position:relative;
+    width:100%;
+}
+.navigation-top{
+    padding: 8px;
+}
+.navigation-bottom{
+    background-color: #80808014;
+}
+.navigation-bottom a{
+    text-decoration: none;
+    padding:15px;
+    color:black
+}
+#nav-btn{
+    background-color: #cc3030;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 14px 7px 14px;
+    color: white;
+}
+.nav-img{
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    width: 18%;
+    height: 12%;
+}
+.banner{
+    background-image: url("images/banner.png");
+    width:100%;
+    height:500px;
+}
+.parallelograms{
+    position:relative;
+    left: 20%;
+    top:105px;
+}
+.parallelograms2{
+    position:relative;
+    left: 21%;
+    top:300px;
+}
+.arrow{
+    margin-left: 10px;
+}
+.p-1{
+    
+    position: absolute;
+    height: 50px;
+    width: 236px;
+    transform: skew(20deg);
+    color:#ffffffc9
+}
+.p-2{
+    background-color: #3c3737c9;
+    position: absolute;
+    width: 236px;
+    height: 50px;
+    transform: skew(20deg);
+    left:101px;
+    top:50px;
+    color:#ffffffc9
+}
+.p-3{
+    background-color: #3c3737c9;
+    position: absolute;
+    width: 236px;
+    height: 50px;
+    transform: skew(20deg);
+    left:199px;
+    top:100px;
+    color:#ffffffc9
+}
+.help-lines{
+    background-color: #80808021;
+}
+.help-lines .col-4 ,.help-lines .col-8{
+    padding: 10px;
+}
+.help-lines img{
+    height: 76px;
+}
+.form-control{
+    border-radius: 0px;
+    border:none;
+}
+.events{
+    background-image: url("images/event_bg.png");
+    color:black ;
+    width:100%;
+}
+.event-form{
+    width:90%;
+    margin:auto;
+    margin-top: 40px;
+}
+#service-1{
+    background-image: url("images/role_impact_ic.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: 0px 1px 10px 2px grey;
+}
+
+#service-2{
+    background-image: url("images/our_service_ic.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: 0px 1px 10px 2px grey;
+}
+#service-3{
+    background-image: url("images/get_involved_ic.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: 0px 1px 10px 2px grey;
+}
+.donate{
+    margin-top: 51px;
+    box-shadow: 2px 0px 10px 5px grey;
+    height:113px;
+}
+.donate .col-3 h5{
+    position: absolute;
+    top: 32px;
+    left: 88px;
+}
+
+.footer{
+    background-image: url("images/contact_us_bg.png");
+    color:white;
+    width:100%;
+
+}
+#mybtn{
+    background-color: #cc3030;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 14px 7px 14px;
+    color: white;
+}
+.copyright{
+    background-color: #191717eb;
+    line-height: 46px;
+}
